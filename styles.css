@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F5F5DC; /* Creme */
+    color: #333;
+}
+
+header {
+    background-color: #8B4513; /* Braun */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-startseite {
+    padding: 100px;
+    text-align: center;
+    background-color: #808000; /* Olivgrün */
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #FFD700; /* Gold */
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#kontakt form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#kontakt form label {
+    margin-top: 10px;
+}
+
+#kontakt form input, #kontakt form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#kontakt form button {
+    background-color: #8B4513; /* Braun */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #8B4513;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
